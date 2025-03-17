@@ -1,12 +1,18 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
 int main()
 {
-    string name;
-    cout << "Enter your name, please: ";
-    cin >> name;
-    cout << "Hello world from " << name << "!" << endl;
+    // Объявляем переменную для хранения имени пользователя
+    std::string name;
+
+    // Запрашиваем имя пользователя
+    std::cout << "Enter your name, please: ";
+    std::cin >> name;
+
+    // Выводим приветствие
+    std::cout << "Hello world from " << name << "!" << std::endl;
+
+    // Завершаем программу успешно
     return 0;
 }
