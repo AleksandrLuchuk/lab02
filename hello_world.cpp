@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 
-int main()
+int
+main()
 {
     // Declare a variable to store the username
     std::string name;
