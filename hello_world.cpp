@@ -3,16 +3,16 @@
 
 int main()
 {
-    // Объявляем переменную для хранения имени пользователя
+    // Declare a variable to store the username
     std::string name;
 
-    // Запрашиваем имя пользователя
+    // Requesting username
     std::cout << "Enter your name, please: ";
     std::cin >> name;
 
-    // Выводим приветствие
+    // Display a greeting
     std::cout << "Hello world from " << name << "!" << std::endl;
 
-    // Завершаем программу успешно
+    // Complete the program successfully
     return 0;
 }
